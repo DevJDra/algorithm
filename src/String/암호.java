@@ -21,7 +21,7 @@ public class 암호 {
     public static void main(String[] args){
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
-        String str = kb.next();호
+        String str = kb.next();
         System.out.println(solution(n, str));
     }
 
