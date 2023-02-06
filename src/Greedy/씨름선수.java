@@ -101,7 +101,6 @@ public class 씨름선수 {
 */
 }
 
-
 class Body implements Comparable<Body>{
     public int h, w;
     Body(int h, int w) {
