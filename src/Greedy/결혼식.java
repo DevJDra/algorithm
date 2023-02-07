@@ -21,6 +21,7 @@ public class 결혼식 {
         }
         return answer;
     }
+
     public static void main(String args[]) throws IOException {
 
         결혼식 T = new 결혼식();
