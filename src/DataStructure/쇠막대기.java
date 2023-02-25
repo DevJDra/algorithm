@@ -31,7 +31,7 @@ public class 쇠막대기 {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         String str = br.readLine();
-        bw.write(T.solution(str));
+        bw.write(String.valueOf(T.solution(str)));
         bw.close();
     }
 }
