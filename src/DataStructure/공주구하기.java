@@ -8,7 +8,7 @@ import java.util.StringTokenizer;
 
 public class 공주구하기 {
 
-    public String solution(int n, int k) {
+    public int solution(int n, int k) {
         int answer = 0;
         Queue<Integer> q = new LinkedList<>();
 
@@ -22,12 +22,13 @@ public class 공주구하기 {
             }
 
             q.poll();
+
             if(q.size() == 1) {
                 answer = q.poll();
             }
         }
 
-        return "";
+        return answer;
     }
 
     public static void main(String args[]) throws IOException {
@@ -43,7 +44,7 @@ public class 공주구하기 {
         int n = Integer.parseInt(st.nextToken());
         int k = Integer.parseInt(st.nextToken());
 
-        bw.write(T.solution(n, k));
+        bw.write(String.valueOf(T.solution(n, k)));
         bw.close();
     }
 }
